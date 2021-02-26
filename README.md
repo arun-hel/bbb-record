@@ -1,7 +1,7 @@
 # bbb-record (Under development)
 clone this repo.
 
-change bbb server url and secret in `get_meetings.py`.
+change bbb server url and secret in `get_meeting.py`.
 
 Install `python3`, `nodejs`, `pip3` and run ` pip3 install -r requirements.txt` to install all required packages.
 
