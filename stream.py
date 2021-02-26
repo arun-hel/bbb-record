@@ -3,14 +3,7 @@
 import sys, argparse, time, subprocess, shlex, logging, os, re
 
 from bigbluebutton_api_python import BigBlueButton, exception
-from bigbluebutton_api_python import util as bbbUtil 
-from selenium import webdriver
-from selenium.webdriver.common.keys import Keys  
-from selenium.common.exceptions import NoSuchElementException
-from selenium.webdriver.chrome.options import Options  
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.common.by import By
+from bigbluebutton_api_python import util as bbbUtil
 import get_meeting 
 
 from datetime import datetime

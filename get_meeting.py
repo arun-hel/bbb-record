@@ -10,8 +10,8 @@ from bigbluebutton_api_python import BigBlueButton
 
 logging.basicConfig(level=os.environ.get("LOGLEVEL", "INFO"))
 
-server = "https://bbb-url/bigbluebutton/"
-secret = "bbb-secret"
+server = "https://bbb1.ybps.online/bigbluebutton/"
+secret = "71gVGPhrg8qvjeFt7AjBIDvj2FBgdqLfIh5XTyjNE"
 bbb  = BigBlueButton(server, secret)
 
 def get_meeting(server):
